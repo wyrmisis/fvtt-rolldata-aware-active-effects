@@ -8,12 +8,13 @@ Active Effects.
 ## The Specifics
 This module is fairly simple -- it overrides Foundry's included `ActiveEffect`
 class with one that makes an effort to read rolldata. In addition, it adds a 
-bit of syntactic sugar to the Attribute Key field -- you can use `@` in place
-of `data.` in the Attribute Key field.
+bit of syntactic sugar to the Attribute Key field -- you can use `@` in front
+of your Attribute Key field, and the symbol will be stripped off. This was done
+to make copy-pasting values into the key field lass onerous.
 
-So, given an Attribute Key of `@hp.max` and an Effect Value of `floor(@level / 2)`,
+So, given an Attribute Key of `@data.hp.max` and an Effect Value of `floor(@data.level / 2)`,
 you can expect that the actor receiving the effect will have their max HP increased
-by the `level` value, rounded down.
+by the value of `data.level`, rounded down.
 
 
 ## Installation

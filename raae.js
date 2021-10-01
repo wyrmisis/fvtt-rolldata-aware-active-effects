@@ -16,8 +16,11 @@ class RolldataAwareActiveEffect extends ActiveEffect {
       
       // If the user wants to use the rolldata format
       // for grabbing data keys, why stop them?
+      // This is purely syntactic sugar, and for folks
+      // who copy-paste values between the key and value
+      // fields.
       if (change.key.indexOf('@') === 0)
-        change.key= change.key.replace('@', 'data.');
+        change.key = change.key.replace('@', '');
   
       // If the user entered a dice formula, I really doubt they're 
       // looking to add a random number between X and Y every time
