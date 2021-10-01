@@ -26,8 +26,8 @@ https://github.com/wyrmisis/fvtt-rolldata-aware-active-effects/releases/latest/d
 
 
 ## Caveats
-* If your system or other modules directly modify or override the `ActiveEffect` class
-  , then I wouldn't expect this to work as intended.
+* If your system or other modules directly modify or override the `ActiveEffect` class,
+  this may not work as expected.
 * If your value includes a dice roll (e.g. `1d4` or `ceil(1d6/#some.property)`),
   your value will be passed along as a string, rather than evaluated. This is
   because evaluation of a value with a dice roll in it will only roll the number
