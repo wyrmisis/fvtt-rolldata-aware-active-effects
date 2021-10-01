@@ -7,6 +7,9 @@
   "authors": [
     {"name": "wyrmisis", "discord": "wyrmisis#8136"}
   ],
+  "dependencies": [
+    { "name": "lib-wrapper" }
+  ],
   "minimumCoreVersion": "0.8.8",
   "esmodules": [ "raae.js" ],
   "license": "LICENSE",

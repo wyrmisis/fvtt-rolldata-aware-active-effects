@@ -6,8 +6,8 @@ Active Effects.
 
 
 ## The Specifics
-This module is fairly simple -- it overrides Foundry's included `ActiveEffect`
-class with one that makes an effort to read rolldata. In addition, it adds a 
+This module is fairly simple -- it adds onto Foundry's included `ActiveEffect`
+class via libWrapper in an effort to read rolldata. In addition, it adds a 
 bit of syntactic sugar to the Attribute Key field -- you can use `@` in front
 of your Attribute Key field, and the symbol will be stripped off. This was done
 to make copy-pasting values into the key field lass onerous.
