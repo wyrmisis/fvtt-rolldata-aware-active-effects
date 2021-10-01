@@ -42,8 +42,6 @@ const apply = (wrapped, owner, change) => {
 }
 
 Hooks.once('init', async function() {
-  console.info(`AAAA`, libWrapper);
-
   libWrapper.register(
     'fvtt-rolldata-aware-active-effects',
     'ActiveEffect.prototype.apply',
