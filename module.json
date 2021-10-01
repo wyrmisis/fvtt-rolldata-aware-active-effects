@@ -1,0 +1,17 @@
+{   
+  "manifestPlusVersion": "1.2.0",
+  "name": "fvtt-rolldata-aware-active-effects",   
+  "title": "Rolldata Aware Active Effects",   
+  "description": "A system-agnostic module that allows you to use an Actor's rolldata in your Active Effects.",
+  "author": "wyrmisis",
+  "authors": [
+    {"name": "wyrmisis", "discord": "wyrmisis#8136"}
+  ],
+  "minimumCoreVersion": "0.8.8",
+  "esmodules": [ "raae.js" ],
+  "license": "LICENSE",
+  "version": "auto-replaced",
+  "url": "auto-replaced",
+  "manifest": "auto-replaced",
+  "download": "auto-replaced"
+}

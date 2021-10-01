@@ -17,7 +17,11 @@ by the `level` value, rounded down.
 
 
 ## Installation
-Todo
+Paste the following into the field at the bottom of the module installation dialog in Foundry:
+
+```
+https://github.com/wyrmisis/fvtt-rolldata-aware-active-effects/releases/latest/download/module.json
+```
 
 
 ## Caveats
