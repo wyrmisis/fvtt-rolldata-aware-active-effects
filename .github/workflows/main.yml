@@ -10,13 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    # Time to build!
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '14'
-    - run: npm install
-    - run: npm run build
-
     # get part of the tag after the `v`
     - name: Extract tag version number
       id: get_version
